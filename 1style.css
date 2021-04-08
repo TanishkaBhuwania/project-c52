@@ -1,0 +1,78 @@
+.img1{
+    margin-left: 70px;
+    margin-right: 30px ;
+    display: flex;
+    justify-content: space-between;
+      
+    
+}
+.img2{
+    margin-left: 70px;
+    margin-right: 30px ; 
+    display: flex;
+    justify-content: space-between;  
+}
+.img3{
+    margin-left: 70px;
+    margin-right: 30px ;
+    display: flex;
+    justify-content: space-between;  
+}
+.img4{
+    margin-left: 70px; 
+    margin-right: 30px ;  
+    display: flex;
+    justify-content: space-between;  
+}
+.img5{
+    margin-left: 70px;
+    margin-right: 30px ;
+    display: flex;
+    justify-content: space-between;  
+}
+body{
+    background-color:  rgb(204, 204, 10); 
+}
+img{
+    border: 5px solid#000000;
+    border-radius: 50px;
+}
+.header{
+    text-align: left;
+      font-family: Algerian;
+      font-size: 35px;
+      font-weight: 800;
+     color:#6472eb;
+     
+}
+.menu{
+    text-align: left;
+    font-family: Cooper;
+    font-size: 25px;
+    font-weight: 200;
+    color:#000000;
+}
+.main{
+    position:relative;
+}
+.main img1,img2,img3,img4,img5{
+    position:absolute;
+    right:50%;
+    left:50%;
+    transform:translate(-50%,-50%); 
+}
+.footer{
+    margin-left: 30px;
+}
+.footer img{
+    margin-left: 300px;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: blue;
+}
+.a{
+    text-decoration: none;
+ }
